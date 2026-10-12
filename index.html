@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+    name="description"
+    content="Shaffer Farms Bakery offers homemade breads, Ryan Rolls, sweet treats, and local market favorites."
+/>
+    <title>Shaffer Farms Bakery</title>
+    <meta name="description"
+        content="Shaffer Farms Bakery offers homemade baked goods, seasonal treats, and local market favorites." />
+    <link rel="icon" type="image/png" href="assets/logo/icon-brown.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/themes.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+        <a class="site-logo" href="index.html">
+            <img src="assets/logo/logo-brown.png" alt="Shaffer Farms Bakery - Home" width="4378" height="2499" />
+        </a>
+        <nav class="main-nav" aria-label="Main Navigation">
+            <a href="index.html" aria-current="page" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">Our Story</a>
+            <a href="menu.html" class="nav-link">Menu</a>
+            <a href="markets.html" class="nav-link">Markets</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <p class="eyebrow">Homemade • Seasonal • Local</p>
+                <h1 id="hero-heading">Freshly Baked, Made with Love</h1>
+                <p class="hero-text">From homemade breads to sweet treats, find something delicious for your everyday
+                    moments and seasonal celebrations.</p>
+                <a href="menu.html" class="btn">View Menu</a>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="images/hero-cookie.png" alt="Golden cookie sandwiches with colorful sprinkles"
+                    class="hero-image" fetchpriority="high" />
+            </div>
+        </section>
+        <section class="favorites" aria-labelledby="favorites-heading">
+            <p class="eyebrow">Discover Your Favorites</p>
+            <h2 id="favorites-heading">Homemade Goodness</h2>
+            <div class="favorites-grid">
+                <article class="favorite-card">
+                    <img src="images/sourdough.png" alt="Two round, flour-dusted bread loaves" loading="lazy" />
+                    <div class="favorite-card-content">
+                        <h3>Homemade Bread</h3>
+                        <p>Freshly baked loaves to bring something special to your table.</p>
+                    </div>
+                </article>
+                <article class="favorite-card">
+                    <img src="images/ryan-rolls.png" alt="A batch of golden plain Ryan Rolls" loading="lazy" />
+                    <div class="favorite-card-content">
+                        <h3>Ryan Rolls</h3>
+                        <p>A family favorite, available in plain and seasoned varieties.</p>
+                    </div>
+                </article>
+                <article class="favorite-card">
+                    <img src="images/danish.png" alt="Strawberry and blueberry pastries with crumb topping"
+                        loading="lazy" />
+                    <div class="favorite-card-content">
+                        <h3>Seasonal Treats</h3>
+                        <p>Explore sweet favorites inspired by the season.</p>
+                    </div>
+                </article>
+            </div>
+            <a href="menu.html" class="btn">Explore the Menu</a>
+        </section>
+        <section class="story-preview" aria-labelledby="story-heading">
+            <p class="eyebrow">Meet Shaffeer Farms Bakery</p>
+            <h2 id="story-heading">A Little About Us</h2>
+            <p>Get to know the baker behind Shaffer Farms Bakery and the story behind the homemade breads, Ryan Rolls,
+                and sweet treats.</p>
+            <a href="about.html" class="btn">Our Story</a>
+        </section>
+        <section class="markets-preview" aria-labelledby="markets-heading">
+            <div>
+                <p class="eyebrow">Find Us Locally</p>
+                <h2 id="markets-heading">Markets & Events</h2>
+                <p>Looking for Shaffer Farms Bakery near you? Check our market and event updates to plan your visit.</p>
+            </div>
+            <a href="markets.html" class="btn">Find Us</a>
+        </section>
+
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <a class="footer-brand" href="index.html">Shaffer Farms Bakery</a>
+            <p>Homemade breads, Ryan Rolls, and seasonal treats made with love.</p>
+            <nav class="footer-nav" aria-label="Footer Navigation">
+                <a href="index.html" class="footer-link">Home</a>
+                <a href="about.html" class="footer-link">Our Story</a>
+                <a href="menu.html" class="footer-link">Menu</a>
+                <a href="markets.html" class="footer-link">Markets</a>
+                <a href="contact.html" class="footer-link">Contact</a>
+            </nav>
+            <p class="footer-copyright">
+    &copy; <span class="copyright-year">2026</span> Shaffer Farms Bakery
+</p>
+        </div>
+    </footer>
+<script>
+    document.querySelectorAll(".copyright-year").forEach((element) => {
+        element.textContent = new Date().getFullYear();
+    });
+</script>
+
+</body>
+
+</html>
